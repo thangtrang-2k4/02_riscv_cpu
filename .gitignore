@@ -1,0 +1,84 @@
+### QuestaSim / ModelSim ###
+work/
+work_lib/
+transcript
+vsim.wlf
+*.wlf
+*.vcd
+*.vpd
+*.fsdb
+*.log
+*.jou
+*.pb
+*.ucdb
+*.asdb
+vsim.dbg
+vsim_stacktrace.vstf
+modelsim.ini
+
+### Simulation output ###
+sim/
+*/sim/
+output/
+
+### Quartus ###
+db/
+incremental_db/
+greybox_tmp/
+simulation/
+output_files/
+timing/
+pll_sim/
+altresource/
+c5_pin_model/
+
+*.qws
+*.sopcinfo
+*.sof
+*.pof
+*.jic
+*.rpd
+*.hex
+*.cdf
+*.ekp
+*.eqn
+*.pin
+*.smsg
+*.summary
+*.chg
+*.rpt
+*.qip
+*.sdc~
+*.bak
+*.tmp
+
+### FPGA top-level backup ###
+*.bsf
+*.ppf
+*.bdf
+*.cdf
+*.qdf
+*.qsf.old
+
+### Python cache ###
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+### Temporary files ###
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+### IDE ###
+.vscode/
+.idea/
+*.code-workspace
+
+### Windows / Mac ###
+Thumbs.db
+Desktop.ini
+.DS_Store
