@@ -17,9 +17,7 @@ vsim_stacktrace.vstf
 modelsim.ini
 
 ### Simulation output ###
-sim/
-*/sim/
-output/
+sim/out/
 
 ### Quartus ###
 db/
